@@ -1,5 +1,7 @@
 # gwtblie ><(((º>
 
+[![Build Status](https://buildhive.cloudbees.com/job/jbarop/job/gwtblie/badge/icon)](https://buildhive.cloudbees.com/job/jbarop/job/gwtblie/)
+
 GWT utility library for common GWT stuff I rely on and I want to share with the world.
 
 
