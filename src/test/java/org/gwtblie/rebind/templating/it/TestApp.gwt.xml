@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+
+  <inherits name="com.google.gwt.core.Core" />
+
+  <define-property
+    name="gwtblie.generator.test.selection"
+    values="yes,no" />
+  <set-property
+    name="gwtblie.generator.test.selection"
+    value="yes" />
+
+  <define-configuration-property
+    name="gwtblie.generator.test.singleValued"
+    is-multi-valued="false" />
+  <set-configuration-property
+    name="gwtblie.generator.test.singleValued"
+    value="42" />
+
+  <define-configuration-property
+    name="gwtblie.generator.test.multiValued"
+    is-multi-valued="true" />
+
+  <extend-configuration-property
+    name="gwtblie.generator.test.multiValued"
+    value="test A" />
+
+  <extend-configuration-property
+    name="gwtblie.generator.test.multiValued"
+    value="test B" />
+
+  <generate-with class="org.gwtblie.rebind.templating.it.rebind.GeneratorOne">
+    <when-type-is class="org.gwtblie.rebind.templating.it.client.ToBeGenerated" />
+  </generate-with>
+
+  <source path='client' />
+
+</module>
